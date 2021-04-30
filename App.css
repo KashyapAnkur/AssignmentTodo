@@ -1,0 +1,484 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.newclass{
+  color:orange;
+  background-color:green;
+}
+
+.menutag{
+  border: 1px solid purple;
+}
+
+.menutag > ul > li {
+  list-style:none;
+  margin-left: 10px;
+  display:inline-block;
+}
+.menutag > ul > li > a{
+  text-decoration:none;
+}
+
+.footer{
+  padding:10px;
+  height:50vh;
+  background-color:black;
+  color:orange;
+}
+
+.ffour,.fone,.ftwo,.fthree{
+  float:left;
+  color:white;
+  margin:25px;
+  padding:10px;
+  width:300px;
+  /* background-color:orange; */
+}
+
+.ffour > a,.fone > a,.ftwo > a ,.fthree > a{
+  text-decoration:none;
+  color:white;
+}
+
+
+.ffour > ul,.fone > ul,.ftwo > ul, .fthree > ul{
+  list-style: none;
+}
+
+.ffour > ul > li > a,.fone > ul > li > a,.ftwo > ul > li > a, .fthree > ul > li > a{
+  text-decoration:none;
+  color:white;
+}
+
+.productList{
+  color:orange;
+  list-style:none;
+}
+
+.productList > li {
+  margin: 0;
+  padding: 0.01em;
+}
+
+.delivery{
+  color:blue;
+}
+
+.deletedNotification{
+  color:lightgreen;
+}
+
+.deliveryType{
+  color:orange;
+  list-style:none; 
+}
+
+
+
+.useinfo{
+  width:300px;
+  height:70px;
+  color:white;
+  background-color:orange;
+  font-size: 30px;
+}
+
+.usertable{
+  color:orange;
+  background-color:purple;
+}
+
+
+.error{
+  color:red;
+}
+
+.register{
+  color:white;
+  background-color: orange;
+  width: 150px;
+  height: 40px;
+  font-size:23px;
+}
+
+.showimagebutton{
+  color:orange;
+  background-color:black;
+  height: 30px;
+  width: 140px;
+  font-size:18px;
+}
+
+.userHobbies{
+  list-style:none;
+}
+
+.userPersonalInfo{
+  list-style:none;
+}
+
+.showPersonalInfo{
+  color:white;
+  background-color: orange;
+  height:30px;
+  width:200px;
+  font-size:17px;
+  border-radius:25px;
+}
+
+.showHobbies{
+  background-color: purple;
+  color:white;
+  font-size:18px;
+  border-radius:25px;
+}
+
+.userdiv{
+  background-color:orange;
+  color:white;
+  margin:50x;
+  padding:5px;
+  float:left;
+  border: 1px solid black;
+  line-height:50px;
+}
+
+.carheading{
+  width:100%;
+  padding:10px;
+  background-color:purple;
+  color:white;
+}
+
+
+h3{
+  width:100%;
+  background-color:purple;
+}
+
+.carmenu{ 
+  color:white;
+  background-color:purple;
+  text-decoration:none;
+}
+
+
+
+.listcontainer{
+  width:80%;
+  height:30%;
+  background-color:yellow;
+  margin:10%;
+}
+
+.formcontainer{
+  width:80%;
+  height:30%;
+  background-color:orange;
+  margin:10%;
+}
+
+.comment{
+  width:300px;
+  height:30px;
+  font-size:19px;
+}
+
+.savecomments{
+  width:300px;
+  height:40px;
+  color:white;
+  background-color:purple;
+  font-size:19px;
+}
+
+.listItems{
+  list-style:none;
+}
+
+
+/* ///// */
+.singletodo{
+  background-color:orange;
+  color:white;
+}
+
+.todolist{
+  background-color:purple;
+  color:white;
+}
+
+.todoform{
+  background-color:lightgreen;
+  color:white;
+}
+
+/* // */
+/* FOrum form */
+.forumtextarea {
+  width:600px;
+  height:160px;
+  font-size:23px;
+  color:orange;
+  background-color: purple;
+  padding:10px;
+}
+
+.forumselectbutton{
+  width:623px;
+  height:60px;
+  font-size:23px;
+  color:orange;
+  background-color: purple;
+  padding:10px;
+}
+
+
+.submitforum{
+  width:623px;
+  height:60px;
+  font-size:23px;
+  color:orange;
+  background-color: purple;
+  padding:10px;
+}
+
+
+.forumTopicList{
+    list-style:none;
+}
+
+/* //to do using class based */
+.classTodoForm {
+  background-color:purple;
+  color:white;
+  height:30vh;
+  margin:30px;
+}
+
+.classTodoFormInput{
+  width:200px;
+  height:50px;
+  font-size:19px;
+  padding:5px;
+  margin:20px;
+}
+
+.classTodoFormAddtodo{
+  width:200px;
+  height:50px;
+  font-size:19px;
+  padding:5px;
+}
+
+.todoContainerClass{
+  width:130vh;
+  margin:10px;
+  padding:30px;
+  height:100vh;
+  color:white;
+  background-color:rosybrown;
+}
+
+.todoListClass {
+  background-color:purple;
+  color:white;
+  height:30vh;
+  margin:30px;
+}
+
+/* CLASS BASED BLOGS */
+.classBasedBlogs{
+  width:100%;
+  background-color:salmon;
+  padding:10px;
+  margin:0;
+  color:white;
+}
+
+.blogTitle, .blogContent, .blogDate, .blogSubmit, .blogAuthor{
+  width:300px;
+  height:40px;
+  background-color:tomato;
+  color:white;
+  font-size:23px;
+}
+
+.blogTable{
+  background-color:purple;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  width:400px;
+}
+
+.showBlogButton{
+  width:200px;
+  height:30px;
+  color:white;
+  background-color: yellowgreen;
+  font-size:23px;
+}
+/* CLASS BASED BLOGS */
+
+
+/* FUNCTIONAL BASED BLOGS */
+.functionalBasedBlogs{
+  width:100%;
+  background-color:salmon;
+  padding:10px;
+  margin:0;
+  color:white;
+}
+
+.blogTitle, .blogContent, .blogDate, .blogSubmit, .blogAuthor{
+  width:300px;
+  height:40px;
+  background-color:tomato;
+  color:white;
+  font-size:23px;
+}
+
+.blogTable{
+  background-color:purple;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  width:400px;
+}
+
+.showBlogButton{
+  width:200px;
+  height:30px;
+  color:white;
+  background-color: yellowgreen;
+  font-size:23px;
+}
+/* FUNCTIONAL BASED BLOGS */
+
+/* 21 April Test */
+.userRegistrationForm {
+  width:500px;
+  height:auto;
+  background-color:purple;
+  color:white;
+}
+
+.urfCity, .urfPassword, .urfEmail, .urfUsername {
+  width: 400px;
+  height: 50px;
+  color:white;
+  background-color:skyblue;
+  padding:10px;
+  margin:10px;
+  font-size:19px;
+}
+
+.urfregisterButton {
+  width: 400px;
+  height: 50px;
+  color:white;
+  background-color:tomato;
+  padding:10px;
+  margin:10px;
+  font-size:19px;
+}
+
+
+
+.websiteLinks{
+  text-decoration:none;
+  font-size: 19px;
+  color:orange;
+}
+/* 21 April Test */
+
+
+
+/* cart with connect */
+.productCard {
+  width: auto;
+  height:auto;
+  background-color: salmon;
+  color:white;
+  font-size:19px;
+  font-family: sans-serif;
+  float:left;
+  position:relative;
+  text-align:center;
+  border:1px solid orange;
+}
+
+.productImage{
+  width:150px;
+  height:150px;
+  /* float:left; */
+  /* position:absolute; */
+}
+
+.productName{
+  /* float:left; */
+  /* position:absolute; */
+}
+
+.cartheader {
+  width:100%;
+  height:60px;
+  background-color: salmon;
+  color:white;
+}
+
+.cartImage{
+  margin-left:15px;
+  /* margin-right:; */
+  margin-top:15px;
+  width:30px;
+  height: 30px;
+  float:right;
+}
+
+
+/* // */
+.todo {
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+  cursor: pointer;
+}
